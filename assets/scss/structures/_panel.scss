@@ -1,0 +1,36 @@
+.panel {
+    &__container {
+        @apply bg-slate-200;
+        @apply py-5;
+        @apply min-h-screen;
+    }
+    
+    &__wrapper {
+        @apply bg-white;
+        @apply flex;
+    }
+
+    &__content {
+        @apply px-10;
+        @apply py-6;
+    }
+
+    &__menu {
+        @apply py-4;
+        @apply px-6;
+
+        width: 250px;
+
+        ul {
+            @apply flex;
+            @apply flex-col;
+            @apply gap-1;
+
+            li {
+                @apply py-2;
+                @apply px-4;
+                @apply bg-slate-100;
+            }
+        }
+    }
+}

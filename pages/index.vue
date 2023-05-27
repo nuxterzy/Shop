@@ -1,23 +1,14 @@
 <script lang="ts" setup>
-const test = ref('')
-const products = ref([])
-
-const addProduct = () => {
-    products.value.push(test.value)
-}
 
 </script>
 
 <template>
-    <p>test: {{ test }}</p>
-
-    <input v-model="test" type="text" />
-    <button @click.prevent="addProduct">Dodaj</button>
-
-    <p><strong>Lista produktow:</strong></p>
-    <ul>
-        <li v-for="item in products">
-            {{ item }}
-        </li>
-    </ul>
+    <div class="container mx-auto">
+        
+        <div class="flex justify-center">
+            <nuxt-link to="/admin" class="button mt-4">
+                Przejdź do panelu zarządzania
+            </nuxt-link>
+        </div>
+    </div>
 </template>

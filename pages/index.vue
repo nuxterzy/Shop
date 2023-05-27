@@ -9,7 +9,7 @@ const addProduct = () => {
 </script>
 
 <template>
-    <p>Twoja wiadomość: {{ test }}</p>
+    <p>test: {{ test }}</p>
 
     <input v-model="test" type="text" />
     <button @click.prevent="addProduct">Dodaj</button>

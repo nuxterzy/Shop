@@ -1,14 +1,10 @@
-generator client {
-  provider = "prisma-client-js"
-}
-
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url      = "mysql://root:root@localhost:3306/shop-db"
 }
 
-model User {
-  id        Int      @id @default(autoincrement())
-  login     String
-  password  String
+model user {
+  id       Int    @id @default(autoincrement())
+  login    String
+  password String
 }

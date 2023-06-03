@@ -4,6 +4,14 @@
 
 @import 'useful/include-media';
 @import 'useful/variables';
+@import 'useful/additional';
 @import 'structures';
 @import 'molecules';
 @import 'atoms';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}

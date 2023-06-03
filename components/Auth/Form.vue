@@ -1,12 +1,13 @@
 <script lang="ts" setup>
 
-const submit = () => {
 
-}
+// const submit = () => {
+//     return navigateTo('/admin/index');
+// }
 
-const restorePassword = () => {
+// const restorePassword = () => {
 
-}
+// }
 </script>
 
 <template>

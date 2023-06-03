@@ -3,8 +3,8 @@ const prisma = new PrismaClient()
 async function main() {
   const admin = await prisma.user.create({
     data: {
-        login: 'admin',
-        password: 'admin',
+        login: 'kacper',
+        password: 'kacper',
     }
   })
   console.log({ admin })
